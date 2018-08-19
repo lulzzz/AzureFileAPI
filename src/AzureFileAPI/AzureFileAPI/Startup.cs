@@ -34,7 +34,7 @@ namespace AzureFileAPI
                     {
                         Title = "Azure File Api",
                         Version = "v1.0",
-                        Description = "Dotnet core multi tenant application",
+                        Description = "Azure BLOB File Management",
                         TermsOfService = "TODO: Add Terms of service",
                         Contact = new Contact
                         {
