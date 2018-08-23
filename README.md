@@ -13,6 +13,8 @@ Web API Solution demonstrates file management (CRUD) based on Azure Storage.
 
 ![alt text](https://raw.githubusercontent.com/Boriszn/AzureFileAPI/develop/assets/img/solution-diagram.png  "Azure Files Logo")
 
+![solution-diagram-uml](https://raw.githubusercontent.com/Boriszn/AzureFileAPI/develop/assets/img/solution-diagram-uml.png  "solution-diagram-uml")
+
 ## Installation
 
 1. Clone repository
