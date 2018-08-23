@@ -36,6 +36,7 @@ Web API Solution demonstrates file management (CRUD) based on Azure Storage.
 4. Push to the branch: `git push origin my-new-feature`
 5. Submit a pull request
 
-# References
+# References / Tools
 
-https://docs.microsoft.com/en-gb/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows
+https://docs.microsoft.com/en-gb/azure/storage/blobs/storage-quickstart-blobs-dotnet?tabs=windows 
+https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
