@@ -161,7 +161,6 @@ namespace AzureFileAPI.Data.AzureFileStorage
         }
 
         /// <summary>
-        /// TODO: Move to extension within shared lib after task TELE-1677 will be done
         /// Retries/Executes block upload several times in case of error
         /// NOTICE: Retries action callback (Transient Faults pattern https://msdn.microsoft.com/en-us/library/hh680901(v=pandp.50).aspx),
         /// configures via 'MaximumRetries' constant

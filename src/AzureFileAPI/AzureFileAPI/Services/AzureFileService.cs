@@ -58,7 +58,7 @@ namespace AzureFileAPI.Services
                 {
                     FileMetadataViewModel = new FileMetadata
                     {
-                        FileName = cloudBlob.Metadata["OriginalFileName"],
+                        FileName = cloudBlob.Metadata[FileStorageConstants.CloudMetadataOriginalFileNameKey],
                         MimeType = cloudBlob.Properties.ContentType,
                     },
                     Content = fileContent,

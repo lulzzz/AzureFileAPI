@@ -36,7 +36,6 @@ namespace AzureFileAPI.Controllers
         /// Upload file view model
         /// </returns>
         [HttpPost]
-        [Authorize]
         [SwaggerOperation("UploadFile")]
         [SwaggerResponse(200, description: "Returns Upload File View Model with unique file name, Id etc")]
         [SwaggerResponse(400, description: "Returns when file has incorrect content")]
@@ -67,7 +66,6 @@ namespace AzureFileAPI.Controllers
         /// Object Result
         /// </returns>
         [HttpGet("{fileId}")]
-        [Authorize]
         [SwaggerOperation("GetFile")]
         [SwaggerResponse(200, type: typeof(FileContentResult), description: "Returns FileContentResult object which contains file-content as byte array, file name and MIME type")]
         [SwaggerResponse(400, typeof(string), description: "Returns when file is empty or file doesn't exist")]
