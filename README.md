@@ -1,5 +1,5 @@
 
-# ![alt text](https://raw.githubusercontent.com/Boriszn/AzureFileAPI/develop/assets/img/azure-storage-icon.png  "Azure Files Logo") Azure Storage API
+# ![alt text](https://raw.githubusercontent.com/Boriszn/AzureFileAPI/develop/assets/img/azure-storage-icon-small.png  "Azure Files Logo") Azure Storage API
 
 Web API Solution demonstrates file management (CRUD) based on Azure Storage.
 
