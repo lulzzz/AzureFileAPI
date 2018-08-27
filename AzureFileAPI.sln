@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFileAPI", "src\AzureFileAPI\AzureFileAPI\AzureFileAPI.csproj", "{152F6754-D95D-4AA6-A239-918E1E6AF016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{152F6754-D95D-4AA6-A239-918E1E6AF016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{152F6754-D95D-4AA6-A239-918E1E6AF016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{152F6754-D95D-4AA6-A239-918E1E6AF016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{152F6754-D95D-4AA6-A239-918E1E6AF016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98199BFA-BF3B-404E-A6DF-DD2B617D1588}
+	EndGlobalSection
+EndGlobal
