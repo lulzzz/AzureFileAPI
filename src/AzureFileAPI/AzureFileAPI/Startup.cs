@@ -1,6 +1,7 @@
 ﻿using AzureFileAPI.Configuration;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -21,6 +22,11 @@ namespace AzureFileAPI
             ConfigSettingConfiguration.ConfigureServices(services, Configuration);
             SwaggerConfiguration.ConfigureServices(services);
             IoCConfiguration.ConfigureServices(services);
+
+            services.Configure<FormOptions>(x =>
+            {
+                x.MultipartBodyLengthLimit = 500 * 1024 * 1024;
+            });
 
             services.AddMvc();
         }
